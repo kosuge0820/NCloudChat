@@ -17,7 +17,7 @@ class NavigationController: UINavigationController {
 
     
     private func layoutNavigationBar() {
-        navigationBar.translucent = false 
-        navigationBar.barTintColor = UIColor.mainBackgroundColor()
+        self.navigationBar.translucent = false
+        self.navigationBar.barTintColor = UIColor.mainBackgroundColor()
     }
 }

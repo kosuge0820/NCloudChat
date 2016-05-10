@@ -27,7 +27,7 @@
         <!--Navigation Controller-->
         <scene sceneID="3qf-Mo-gGw">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dUA-0D-SUd" customClass="NavigationController" customModule="NCloudChat" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dUA-0D-SUd" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="o7R-nh-wQh" customClass="NavigationBar" customModule="NCloudChat" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

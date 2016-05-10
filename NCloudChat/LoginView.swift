@@ -10,28 +10,30 @@ import UIKit
 
 class LoginView: UIView {
     
-    override init(frame: CGRect) {
-        super.init(frame: CGRectZero)
-        self.backgroundColor = UIColor.whiteColor()
+    private var view: UIView
     
+    override init(frame: CGRect) {
+        view = UIView(frame: CGRectZero)
+        super.init(frame: CGRectZero)
+        view.backgroundColor = UIColor.whiteColor()
+        addSubview(view)
     }
-
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
+        view.frame = frame
+    }
+    
+    private func setLoginButton() {
         
-        print("layoutSubviews")
     }
     
-    private func setLoginButton(x: CGFloat) {
-        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 300, height: 50))
-//        button.addTarget(self, action: #selector(LoginView.tapLoginButton), forControlEvents: )
-    }
     
-    private func setLoginTextField() {
+    private func setLoginTextField(y: CGFloat, placeholder: String) {
         
     }
 }
