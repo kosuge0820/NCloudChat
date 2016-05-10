@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3111DE7D1D43C0B3606F3286 /* Pods_NCloudChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F061F5209B76B8D1A65A63DC /* Pods_NCloudChat.framework */; };
+		FCF045171CE0E33600D73A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF045161CE0E33600D73A15 /* AppDelegate.swift */; };
+		FCF045191CE0E33600D73A15 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF045181CE0E33600D73A15 /* LoginViewController.swift */; };
+		FCF0451C1CE0E33600D73A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF0451A1CE0E33600D73A15 /* Main.storyboard */; };
+		FCF0451E1CE0E33600D73A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF0451D1CE0E33600D73A15 /* Assets.xcassets */; };
+		FCF045211CE0E33600D73A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF0451F1CE0E33600D73A15 /* LaunchScreen.storyboard */; };
+		FCF0452C1CE0E33600D73A15 /* NCloudChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0452B1CE0E33600D73A15 /* NCloudChatTests.swift */; };
+		FCF045371CE0E33600D73A15 /* NCloudChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF045361CE0E33600D73A15 /* NCloudChatUITests.swift */; };
+		FCF045491CE0E3BD00D73A15 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF045481CE0E3BD00D73A15 /* LoginView.swift */; };
+		FCF045521CE0E8AD00D73A15 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF045511CE0E8AD00D73A15 /* UIColor+Extension.swift */; };
+		FCF045541CE1765E00D73A15 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF045531CE1765E00D73A15 /* NavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCF045281CE0E33600D73A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF0450B1CE0E33600D73A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF045121CE0E33600D73A15;
+			remoteInfo = NCloudChat;
+		};
+		FCF045331CE0E33600D73A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF0450B1CE0E33600D73A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF045121CE0E33600D73A15;
+			remoteInfo = NCloudChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0050C49762C4B313A517145 /* Pods-NCloudChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCloudChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-NCloudChat/Pods-NCloudChat.release.xcconfig"; sourceTree = "<group>"; };
+		F061F5209B76B8D1A65A63DC /* Pods_NCloudChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCloudChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF045131CE0E33600D73A15 /* NCloudChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCloudChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF045161CE0E33600D73A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCF045181CE0E33600D73A15 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FCF0451B1CE0E33600D73A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCF0451D1CE0E33600D73A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCF045201CE0E33600D73A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCF045221CE0E33600D73A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF045271CE0E33600D73A15 /* NCloudChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCloudChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF0452B1CE0E33600D73A15 /* NCloudChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCloudChatTests.swift; sourceTree = "<group>"; };
+		FCF0452D1CE0E33600D73A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF045321CE0E33600D73A15 /* NCloudChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCloudChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF045361CE0E33600D73A15 /* NCloudChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCloudChatUITests.swift; sourceTree = "<group>"; };
+		FCF045381CE0E33600D73A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF045481CE0E3BD00D73A15 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FCF045511CE0E8AD00D73A15 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		FCF045531CE1765E00D73A15 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		FE5A333EF4433378026A7F4E /* Pods-NCloudChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCloudChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NCloudChat/Pods-NCloudChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCF045101CE0E33600D73A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3111DE7D1D43C0B3606F3286 /* Pods_NCloudChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF045241CE0E33600D73A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF0452F1CE0E33600D73A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F8BCC2E1CE180B4DD5FACCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F061F5209B76B8D1A65A63DC /* Pods_NCloudChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E12B7279462C18FA078C05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE5A333EF4433378026A7F4E /* Pods-NCloudChat.debug.xcconfig */,
+				E0050C49762C4B313A517145 /* Pods-NCloudChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCF0450A1CE0E33600D73A15 = {
+			isa = PBXGroup;
+			children = (
+				FCF045151CE0E33600D73A15 /* NCloudChat */,
+				FCF0452A1CE0E33600D73A15 /* NCloudChatTests */,
+				FCF045351CE0E33600D73A15 /* NCloudChatUITests */,
+				FCF045141CE0E33600D73A15 /* Products */,
+				D3E12B7279462C18FA078C05 /* Pods */,
+				4F8BCC2E1CE180B4DD5FACCA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCF045141CE0E33600D73A15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCF045131CE0E33600D73A15 /* NCloudChat.app */,
+				FCF045271CE0E33600D73A15 /* NCloudChatTests.xctest */,
+				FCF045321CE0E33600D73A15 /* NCloudChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCF045151CE0E33600D73A15 /* NCloudChat */ = {
+			isa = PBXGroup;
+			children = (
+				FCF0454D1CE0E76C00D73A15 /* Scene */,
+				FCF045471CE0E38D00D73A15 /* Models */,
+				FCF045461CE0E38500D73A15 /* Views */,
+				FCF045451CE0E37800D73A15 /* Controllers */,
+				FCF045441CE0E36800D73A15 /* Application */,
+				FCF045501CE0E83100D73A15 /* Extensions */,
+			);
+			path = NCloudChat;
+			sourceTree = "<group>";
+		};
+		FCF0452A1CE0E33600D73A15 /* NCloudChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCF0452B1CE0E33600D73A15 /* NCloudChatTests.swift */,
+				FCF0452D1CE0E33600D73A15 /* Info.plist */,
+			);
+			path = NCloudChatTests;
+			sourceTree = "<group>";
+		};
+		FCF045351CE0E33600D73A15 /* NCloudChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCF045361CE0E33600D73A15 /* NCloudChatUITests.swift */,
+				FCF045381CE0E33600D73A15 /* Info.plist */,
+			);
+			path = NCloudChatUITests;
+			sourceTree = "<group>";
+		};
+		FCF045441CE0E36800D73A15 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FCF045161CE0E33600D73A15 /* AppDelegate.swift */,
+				FCF0451A1CE0E33600D73A15 /* Main.storyboard */,
+				FCF0451D1CE0E33600D73A15 /* Assets.xcassets */,
+				FCF0451F1CE0E33600D73A15 /* LaunchScreen.storyboard */,
+				FCF045221CE0E33600D73A15 /* Info.plist */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		FCF045451CE0E37800D73A15 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCF045181CE0E33600D73A15 /* LoginViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FCF045461CE0E38500D73A15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCF045481CE0E3BD00D73A15 /* LoginView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FCF045471CE0E38D00D73A15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FCF0454D1CE0E76C00D73A15 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				FCF045531CE1765E00D73A15 /* NavigationController.swift */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		FCF045501CE0E83100D73A15 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FCF045511CE0E8AD00D73A15 /* UIColor+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCF045121CE0E33600D73A15 /* NCloudChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF0453B1CE0E33600D73A15 /* Build configuration list for PBXNativeTarget "NCloudChat" */;
+			buildPhases = (
+				9784D4AE6E33441ACF117C51 /* Check Pods Manifest.lock */,
+				FCF0450F1CE0E33600D73A15 /* Sources */,
+				FCF045101CE0E33600D73A15 /* Frameworks */,
+				FCF045111CE0E33600D73A15 /* Resources */,
+				4478A56209A821779C3A8B59 /* Embed Pods Frameworks */,
+				50F735D4A306863AA025DB54 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCloudChat;
+			productName = NCloudChat;
+			productReference = FCF045131CE0E33600D73A15 /* NCloudChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCF045261CE0E33600D73A15 /* NCloudChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF0453E1CE0E33600D73A15 /* Build configuration list for PBXNativeTarget "NCloudChatTests" */;
+			buildPhases = (
+				FCF045231CE0E33600D73A15 /* Sources */,
+				FCF045241CE0E33600D73A15 /* Frameworks */,
+				FCF045251CE0E33600D73A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF045291CE0E33600D73A15 /* PBXTargetDependency */,
+			);
+			name = NCloudChatTests;
+			productName = NCloudChatTests;
+			productReference = FCF045271CE0E33600D73A15 /* NCloudChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCF045311CE0E33600D73A15 /* NCloudChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF045411CE0E33600D73A15 /* Build configuration list for PBXNativeTarget "NCloudChatUITests" */;
+			buildPhases = (
+				FCF0452E1CE0E33600D73A15 /* Sources */,
+				FCF0452F1CE0E33600D73A15 /* Frameworks */,
+				FCF045301CE0E33600D73A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF045341CE0E33600D73A15 /* PBXTargetDependency */,
+			);
+			name = NCloudChatUITests;
+			productName = NCloudChatUITests;
+			productReference = FCF045321CE0E33600D73A15 /* NCloudChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCF0450B1CE0E33600D73A15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "kosuge satoshi";
+				TargetAttributes = {
+					FCF045121CE0E33600D73A15 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FCF045261CE0E33600D73A15 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FCF045121CE0E33600D73A15;
+					};
+					FCF045311CE0E33600D73A15 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FCF045121CE0E33600D73A15;
+					};
+				};
+			};
+			buildConfigurationList = FCF0450E1CE0E33600D73A15 /* Build configuration list for PBXProject "NCloudChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCF0450A1CE0E33600D73A15;
+			productRefGroup = FCF045141CE0E33600D73A15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCF045121CE0E33600D73A15 /* NCloudChat */,
+				FCF045261CE0E33600D73A15 /* NCloudChatTests */,
+				FCF045311CE0E33600D73A15 /* NCloudChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCF045111CE0E33600D73A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF045211CE0E33600D73A15 /* LaunchScreen.storyboard in Resources */,
+				FCF0451E1CE0E33600D73A15 /* Assets.xcassets in Resources */,
+				FCF0451C1CE0E33600D73A15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF045251CE0E33600D73A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF045301CE0E33600D73A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4478A56209A821779C3A8B59 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NCloudChat/Pods-NCloudChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50F735D4A306863AA025DB54 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NCloudChat/Pods-NCloudChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9784D4AE6E33441ACF117C51 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCF0450F1CE0E33600D73A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF045491CE0E3BD00D73A15 /* LoginView.swift in Sources */,
+				FCF045191CE0E33600D73A15 /* LoginViewController.swift in Sources */,
+				FCF045541CE1765E00D73A15 /* NavigationController.swift in Sources */,
+				FCF045171CE0E33600D73A15 /* AppDelegate.swift in Sources */,
+				FCF045521CE0E8AD00D73A15 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF045231CE0E33600D73A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF0452C1CE0E33600D73A15 /* NCloudChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF0452E1CE0E33600D73A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF045371CE0E33600D73A15 /* NCloudChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCF045291CE0E33600D73A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF045121CE0E33600D73A15 /* NCloudChat */;
+			targetProxy = FCF045281CE0E33600D73A15 /* PBXContainerItemProxy */;
+		};
+		FCF045341CE0E33600D73A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF045121CE0E33600D73A15 /* NCloudChat */;
+			targetProxy = FCF045331CE0E33600D73A15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCF0451A1CE0E33600D73A15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF0451B1CE0E33600D73A15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCF0451F1CE0E33600D73A15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF045201CE0E33600D73A15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCF045391CE0E33600D73A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCF0453A1CE0E33600D73A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCF0453C1CE0E33600D73A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5A333EF4433378026A7F4E /* Pods-NCloudChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NCloudChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.NCloudChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCF0453D1CE0E33600D73A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0050C49762C4B313A517145 /* Pods-NCloudChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NCloudChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.NCloudChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCF0453F1CE0E33600D73A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NCloudChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.NCloudChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NCloudChat.app/NCloudChat";
+			};
+			name = Debug;
+		};
+		FCF045401CE0E33600D73A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NCloudChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.NCloudChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NCloudChat.app/NCloudChat";
+			};
+			name = Release;
+		};
+		FCF045421CE0E33600D73A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NCloudChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.NCloudChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NCloudChat;
+			};
+			name = Debug;
+		};
+		FCF045431CE0E33600D73A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NCloudChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.NCloudChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NCloudChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCF0450E1CE0E33600D73A15 /* Build configuration list for PBXProject "NCloudChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF045391CE0E33600D73A15 /* Debug */,
+				FCF0453A1CE0E33600D73A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF0453B1CE0E33600D73A15 /* Build configuration list for PBXNativeTarget "NCloudChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF0453C1CE0E33600D73A15 /* Debug */,
+				FCF0453D1CE0E33600D73A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF0453E1CE0E33600D73A15 /* Build configuration list for PBXNativeTarget "NCloudChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF0453F1CE0E33600D73A15 /* Debug */,
+				FCF045401CE0E33600D73A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF045411CE0E33600D73A15 /* Build configuration list for PBXNativeTarget "NCloudChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF045421CE0E33600D73A15 /* Debug */,
+				FCF045431CE0E33600D73A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCF0450B1CE0E33600D73A15 /* Project object */;
+}

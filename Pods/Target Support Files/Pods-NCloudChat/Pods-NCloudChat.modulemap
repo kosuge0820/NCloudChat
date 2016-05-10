@@ -1,0 +1,6 @@
+framework module Pods_NCloudChat {
+  umbrella header "Pods-NCloudChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
