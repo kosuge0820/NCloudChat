@@ -11,7 +11,11 @@ import UIKit
 extension UIColor {
     
     class func mainBackgroundColor() -> UIColor {
-        return UIColor(red: 255 / 255, green: 153 / 255, blue: 204 / 255, alpha: 1)
+        return UIColor(red: 255 / 255, green: 160 / 255, blue: 204 / 255, alpha: 1.0)
+    }
+    
+    class func mainAccentColor() -> UIColor {
+        return UIColor(red: 202 / 255, green: 60 / 255, blue: 110 / 255, alpha: 1.0)
     }
     
     

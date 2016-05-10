@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3111DE7D1D43C0B3606F3286 /* Pods_NCloudChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F061F5209B76B8D1A65A63DC /* Pods_NCloudChat.framework */; };
+		FC24E0D01CE1DEC20092DCA0 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC24E0CF1CE1DEC20092DCA0 /* NavigationController.swift */; };
 		FCF045171CE0E33600D73A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF045161CE0E33600D73A15 /* AppDelegate.swift */; };
 		FCF045191CE0E33600D73A15 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF045181CE0E33600D73A15 /* LoginViewController.swift */; };
 		FCF0451C1CE0E33600D73A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF0451A1CE0E33600D73A15 /* Main.storyboard */; };
@@ -17,7 +18,9 @@
 		FCF045371CE0E33600D73A15 /* NCloudChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF045361CE0E33600D73A15 /* NCloudChatUITests.swift */; };
 		FCF045491CE0E3BD00D73A15 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF045481CE0E3BD00D73A15 /* LoginView.swift */; };
 		FCF045521CE0E8AD00D73A15 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF045511CE0E8AD00D73A15 /* UIColor+Extension.swift */; };
-		FCF0455D1CE19A7000D73A15 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0455C1CE19A7000D73A15 /* NavigationBar.swift */; };
+		FCF0455F1CE1B0AC00D73A15 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF0455E1CE1B0AC00D73A15 /* LoginView.xib */; };
+		FCF045691CE1D06600D73A15 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCF045681CE1D06600D73A15 /* girl.jpg */; };
+		FCF0456E1CE1D7E400D73A15 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0456D1CE1D7E400D73A15 /* UITextField+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,7 @@
 /* Begin PBXFileReference section */
 		E0050C49762C4B313A517145 /* Pods-NCloudChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCloudChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-NCloudChat/Pods-NCloudChat.release.xcconfig"; sourceTree = "<group>"; };
 		F061F5209B76B8D1A65A63DC /* Pods_NCloudChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCloudChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC24E0CF1CE1DEC20092DCA0 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		FCF045131CE0E33600D73A15 /* NCloudChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCloudChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF045161CE0E33600D73A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCF045181CE0E33600D73A15 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 		FCF045381CE0E33600D73A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCF045481CE0E3BD00D73A15 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FCF045511CE0E8AD00D73A15 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		FCF0455C1CE19A7000D73A15 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		FCF0455E1CE1B0AC00D73A15 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		FCF045681CE1D06600D73A15 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = girl.jpg; path = ../../../../../Downloads/girl.jpg; sourceTree = "<group>"; };
+		FCF0456D1CE1D7E400D73A15 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		FE5A333EF4433378026A7F4E /* Pods-NCloudChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCloudChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NCloudChat/Pods-NCloudChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +138,7 @@
 				FCF045461CE0E38500D73A15 /* Views */,
 				FCF045451CE0E37800D73A15 /* Controllers */,
 				FCF045441CE0E36800D73A15 /* Application */,
+				FCF045621CE1CD7C00D73A15 /* Resources */,
 				FCF045501CE0E83100D73A15 /* Extensions */,
 			);
 			path = NCloudChat;
@@ -179,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				FCF045481CE0E3BD00D73A15 /* LoginView.swift */,
+				FCF0455E1CE1B0AC00D73A15 /* LoginView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -193,7 +201,7 @@
 		FCF0454D1CE0E76C00D73A15 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				FCF0455C1CE19A7000D73A15 /* NavigationBar.swift */,
+				FC24E0CF1CE1DEC20092DCA0 /* NavigationController.swift */,
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -202,8 +210,17 @@
 			isa = PBXGroup;
 			children = (
 				FCF045511CE0E8AD00D73A15 /* UIColor+Extension.swift */,
+				FCF0456D1CE1D7E400D73A15 /* UITextField+Extension.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		FCF045621CE1CD7C00D73A15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCF045681CE1D06600D73A15 /* girl.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +330,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF0455F1CE1B0AC00D73A15 /* LoginView.xib in Resources */,
+				FCF045691CE1D06600D73A15 /* girl.jpg in Resources */,
 				FCF045211CE0E33600D73A15 /* LaunchScreen.storyboard in Resources */,
 				FCF0451E1CE0E33600D73A15 /* Assets.xcassets in Resources */,
 				FCF0451C1CE0E33600D73A15 /* Main.storyboard in Resources */,
@@ -388,9 +407,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCF0455D1CE19A7000D73A15 /* NavigationBar.swift in Sources */,
 				FCF045491CE0E3BD00D73A15 /* LoginView.swift in Sources */,
+				FC24E0D01CE1DEC20092DCA0 /* NavigationController.swift in Sources */,
 				FCF045191CE0E33600D73A15 /* LoginViewController.swift in Sources */,
+				FCF0456E1CE1D7E400D73A15 /* UITextField+Extension.swift in Sources */,
 				FCF045171CE0E33600D73A15 /* AppDelegate.swift in Sources */,
 				FCF045521CE0E8AD00D73A15 /* UIColor+Extension.swift in Sources */,
 			);

@@ -9,15 +9,17 @@
 import UIKit
 
 class NavigationController: UINavigationController {
+
+    override func loadView() {
+        super.loadView()
+        
+        self.navigationBar.barTintColor = UIColor.mainAccentColor()
+        self.navigationBar.alpha = 0.1
+        self.navigationBar.translucent = true
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        layoutNavigationBar()
-    }
 
-    
-    private func layoutNavigationBar() {
-        self.navigationBar.translucent = false
-        self.navigationBar.barTintColor = UIColor.mainBackgroundColor()
     }
 }

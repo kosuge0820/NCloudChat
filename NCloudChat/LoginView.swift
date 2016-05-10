@@ -8,32 +8,45 @@
 
 import UIKit
 
-class LoginView: UIView {
+class LoginView: UIView ,UITextFieldDelegate{
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var password: UITextField!
     
-    private var view: UIView
-    
-    override init(frame: CGRect) {
-        view = UIView(frame: CGRectZero)
-        super.init(frame: CGRectZero)
-        view.backgroundColor = UIColor.whiteColor()
-        addSubview(view)
+    class func instance() -> LoginView {
+        return UINib(nibName: "LoginView", bundle: nil).instantiateWithOwner(self, options: nil)[0] as! LoginView
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        view.frame = frame
-    }
-    
-    private func setLoginButton() {
+    override func awakeFromNib() {
+        super.awakeFromNib()
         
+        setSetting(username, placeHolder: "username", type: .Next)
+        setSetting(password, placeHolder: "password", type: .Done)
+
+    }
+    
+    func setSetting(textField: UITextField, placeHolder: String ,type: UIReturnKeyType) {
+        textField.delegate = self
+        textField.returnKeyType = type
+        textField.attributedPlaceholder = NSAttributedString(string: placeHolder, attributes:[NSForegroundColorAttributeName: UIColor.mainAccentColor()])
+        textField.backgroundColor = UIColor.clearColor()
+        textField.textAlignment = .Center
+        textField.underline(2.0, color: UIColor.mainAccentColor())
+    }
+    
+    func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
+        textField.delegate = self
+        textField.placeholder = ""
+        return true
     }
     
     
-    private func setLoginTextField(y: CGFloat, placeholder: String) {
-        
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        if textField == username {
+            password.becomeFirstResponder()
+        } else {
+            password.resignFirstResponder()
+        }
+        return true
     }
+    
 }
